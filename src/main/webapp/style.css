@@ -1,0 +1,192 @@
+@charset "ISO-8859-1";
+body {
+    margin: 0px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* header */
+.cover {
+    height: 130px;
+    background-color:black;
+    position: relative;
+    padding: 20px 50px;
+}
+.navbar {
+    background: #ffc107;
+    margin: 0 auto;
+    width: 900px;
+    bottom: 0px;
+    right: 50%;
+    transform: translate(50%,0%);
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.navbar a {
+    float:left;
+    color:black;
+    text-align:center;
+    padding:10px;
+    text-decoration:none;
+}
+h3 {
+    color:#ffc107;
+    margin:0px;
+}
+.search-type {
+    outline: none;
+    color: #ffc107;
+    padding: 10px;
+    width: 110px;
+    background: black;
+    margin-right: 10px;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  padding: 10px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    top: 35px;
+    background-color: #f9f9f9;
+    min-width: 173px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index:1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+#search {
+    background:black;
+    color: #ffc107;
+    border:none;
+    outline:none;
+    margin-left: 10px;
+    padding: 10px 14px;
+}
+
+/* footer */
+footer {
+    width: 100%;
+    background:#111;
+}
+footer .content {
+    max-width: 1350px;
+    margin: auto;
+    padding:20px;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-between;
+}
+footer .content p, footer .content a {
+    color: #fff;
+}
+footer .content .p {
+    text-align: justify;
+}
+footer .content .box {
+    width:33%;
+}
+footer .content h2 {
+    font-size:25px;
+    color:#ffc107;
+    margin-bottom:16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+footer p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+footer .content middle {
+    padding-left:80px;
+}
+footer .content middle a {
+    line-height:32px;
+}
+.heading {
+    font-weight: bold;
+    padding-bottom: 20px;
+    border-bottom: 1px solid black;
+    margin: 0px;
+}
+input[type=text], input[type=password],.input,select,input[type="number"] {
+    padding: 10px 20px;
+    margin: 8px 0;
+    display: input-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+input[type=submit] {
+    background-color: black;
+    color: yellow;
+    padding: 10px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+}
+input[type=submit]:hover {
+    opacity: 0.8;
+}
+button, input[type="reset"] {
+    padding: 10px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+}
+.long-section {
+    margin: 0px;
+    padding: 20px;
+}
+.login-form {
+    padding: 20px;
+}
+.container label {
+    display: block;
+    font-weight: bold;
+}
+h1 {
+    text-align:center;
+}
+.text-center {
+    text-align: center;
+}
+.customer-data {
+    display: flex;
+    padding: 20px;
+}
+.left-half {
+    border: 3px solid black; 
+    float: left;
+    width: 29%;
+}
+.right-half {
+    float: left;
+    width: 70%   
+}
+table, th, td {
+    border: 1px solid black;
+}
+table {
+    border-collapse:collpase;
+    width: auto;
+    margin: 15px auto;
+}
+th {
+    background-color:orange;
+}
+form.delete-customer {
+    text-align: center;
+}
+#transferdiv {
+    display: none;
+}
+#numDiv,#datDiv {
+    display: none;
+}
