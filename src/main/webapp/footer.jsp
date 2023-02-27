@@ -1,7 +1,7 @@
 <footer>
     <div class="content">
         <div class="left box">
-            <div clss="upper">
+            <div class="upper">
                 <h2>About Us</h2>
                     <p>We are the fastest growing bank in Canada and the US<br>
                     and were voted #1 in customer service last year.</p>
