@@ -60,7 +60,7 @@
         if (transactions!=null) {
             if (transactions.size()==0) {
     %>
-    <b>No tranactions available</b>
+    <b>No transactions available</b>
     <%} else { %>
         <table>
             <tr>
